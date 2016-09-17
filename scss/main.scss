@@ -101,7 +101,10 @@ body {
   background-color: $badass; 
 }
 
-
+$foo: #123456;
+.classTest {
+  background-color: $foo;
+}
 
 
 

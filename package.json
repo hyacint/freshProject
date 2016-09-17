@@ -7,7 +7,10 @@
     "doc": "doc"
   },
   "scripts": {
-  "build-css": "node-sass --include-path scss scss/main.scss   css/main.css"
+    "build-css": "node-sass --include-path scss scss/main.scss   css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "autoprefixer": "postcss -u autoprefixer -r css/*",
+    "serve": "browser-sync start --server --files 'dist/css/*.css, dist/js/*.js'"
   },
   "repository": {
     "type": "git",
@@ -20,7 +23,11 @@
   },
   "homepage": "https://github.com/hyacint/freshProject#readme",
   "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "browser-sync": "^2.16.0",
+    "eslint": "^3.5.0",
     "node-sass": "^3.10.0",
-    "nodemon": "^1.10.2"
+    "nodemon": "^1.10.2",
+    "postcss-cli": "^2.6.0"
   }
 }
