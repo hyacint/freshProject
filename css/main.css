@@ -84,6 +84,53 @@ body {
 .classTest {
   background-color: #123456; }
 
+.slider {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  height: 2rem; }
+  .slider input {
+    float: right; }
+
+.mock {
+  border: 1px solid grey;
+  border-radius: 2px;
+  background-color: #bbbbbb;
+  margin: 1px; }
+
+.d1 {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.h {
+  height: 3rem;
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgrey; }
+
+.c1 {
+  width: 32%;
+  height: 3rem;
+  float: left;
+  background-color: #aaddee; }
+
+.c2 {
+  width: 66%;
+  float: left;
+  height: 20rem;
+  background-color: #aaddee; }
+
+.foot {
+  clear: both;
+  width: 99%;
+  height: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeaadd; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
